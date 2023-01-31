@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Nike store</title>
+  <link rel='stylesheet' ><link rel="stylesheet" href="./visa.css">
+
+</head>
+<body>
+    <section class="credit-card visa gr-visa">
+        <div class="logo">Visa</div>
+        <form>
+            <h2>Payment Details</h2>
+
+            <ul class="inputs">
+                <li>
+                    <label>Card Number</label>
+                    <input type="text" name="card_number"  value="" class="full gr-input" required />
+                </li>
+                <li class="expire last">
+                    <label>Expiration</label>
+                    <input type="text" name="expire_month" value="" size="10" class="month gr-input" required />
+                    <input type="text" name="expire_year" value="" size="10" class="year gr-input" required />
+                    <div class="clearfix"></div>
+                </li>
+                <li class="cvc-code last">
+                    <label>CVC Code</label>
+                    <input type="text" name="cvc_code" value="" size="10" class="gr-input" required />
+                </li>
+                <div class="clearfix"></div>
+            </ul>
+        </form>
+        <div><a href="./payment.html" class="order-now">Order Now</a></div>
+        
+
+    </section>
+</body>
+</html>

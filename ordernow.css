@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+  }
+  .yassin-mb-5 {
+    margin-bottom: 20px;
+  }
+  .yassin-pt-3 {
+    padding-top: 12px;
+  }
+  .yassin-main-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
+  }
+
+  .yassin-form-wrapper {
+    margin: 0 auto;
+    max-width: 550px;
+    width: 100%;
+    background: white;
+  }
+  .yassin-form-label {
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    color: #07074d;
+    margin-bottom: 12px;
+  }
+  .yassin-form-label-2 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .yassin-form-input {
+    width: 100%;
+    padding: 12px 24px;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+    background: white;
+    font-weight: 500;
+    font-size: 16px;
+    color: #6b7280;
+    outline: none;
+    resize: none;
+  }
+  .yassin-form-input:focus {
+    border-color: black;
+ 
+  }
+
+  .yassin-btn {
+    text-align: center;
+    font-size: 16px;
+    border-radius: 6px;
+    padding: 14px 32px;
+    border: none;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    width: 100%;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .yassin-btn:hover {
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+  }
+
+  .yassin--mx-3 {
+    margin-left: -12px;
+    margin-right: -12px;
+    
+
+  }
+  .yassin-px-3 {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .flex {
+    display: flex;
+  }
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  .w-full {
+    width: 100%;
+  }
+  @media (min-width: 540px) {
+    .sm\:w-half {
+      width: 50%;
+    }
+  }
+  .order-now {
+    display: inline-block;
+    padding: 50px 60px;
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 40px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 165px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
