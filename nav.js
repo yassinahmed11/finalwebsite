@@ -1,8 +1,13 @@
-console.log('Navbar element found!');
+console.log('hello')
 
-document.getElementById('navbar').addEventListener('click', function(e){
-    if(e.target.nodeName === 'A'){
-        let pageName = e.target.getAttribute('href');
-        console.log(`Navigating to ${pageName}...`);
-    }
+let name = "pewww"
+const familyname = 'pewpew'
+
+name="yasso"
+console.log(name)
+
+const boxxx = document.querySelector('.boxxx');
+
+boxxx.addEventListener('click', function() {
+  console.log('Link to "phantomvsn.html" clicked');
 });
