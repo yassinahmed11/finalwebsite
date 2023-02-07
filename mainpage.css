@@ -2,22 +2,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left:auto;
-    border: 10px solid white;
-    background-color: white;
 }
 
 .nav-link a{
     padding: 30px;
+    right: 120px;
     text-align: center;
-    color: black;
     text-decoration: none;
     font-family: Arial, sans-serif;
     font-size: 15px;
-    font-size:  bold;
-    border: none;
     position: relative;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.9s ease-in-out;
 }
 .nav-link a:before {          /*animations*/ 
     content: "";
@@ -36,6 +31,11 @@
 .logo{
     position: relative;
     left: -400px;
+    
+}
+.logo5{
+    position: relative;
+    left: 900px;
     
 }
 .debruyne{
@@ -185,7 +185,7 @@
     transition: all 0.5s ease-in-out;
   }
   
-  .myLinks:hover {
+.myLinks:hover {
     color: black;
     cursor: pointer;
     background-color: lightgray;
